@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <link rel = "stylesheet" href="style/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>truYum <img src="images/img.jpeg"/>
+        <nav>
+            <a class="a2" href="menu-item-list-admin.html">Menu</a>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <h2 class="h2">Edit Menu Items</h2>
+    <br>
+    <br>
+    <form>  
+       
+        <table class="align">
+            <tr class="textbox">
+               <td>
+                <label class="Table1" for="title">Name</label><br>
+                <input type="text box"  name="title" required>
+               </td>
+            </tr>
+            <tr>
+                <td class="Table1"><label for="price">Price(Rs.)</label></td>
+                <td class="Table1"><label for="Active">Active</label></td>
+                <td></td>
+                <td class="Table1"><label for="dateOfLaunch">Date of Launch</label></td>
+                <td class="Table1"><label for="category">Category</label></td>
+            </tr>
+            <tr>
+                <td><input type="text box" name="price" id="price" required></td>
+                <td class="radio" ><input  type="radio" name="inStock" value="Yes"  required>Yes</td>
+                <td class="radio"><input  type="radio" name="inStock" value="No"  required>No</td>
+                <td><input type="text box" name="dateOfLaunch" required></td>
+                <td>
+                    <select name="category">
+                        <option value="Main Course">Main Course</option>
+                        <option value="Starters">Starters</option>
+                        <option value="Dessert">Dessert</option>
+                        <option value="Drinks">Drinks</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="Table1">
+                <td><input type="checkbox"  required>Free Delivery</td>
+            </tr>
+            <tr>
+                <td><input type="submit"  class="button" onclick="status()"></td>
+            </tr>
+        </table>
+    </form>
+    <footer>Copyright &copy 2019</footer>
+</body>
+</html>
