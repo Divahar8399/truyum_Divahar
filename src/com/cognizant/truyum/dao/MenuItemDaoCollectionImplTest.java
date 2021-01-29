@@ -18,8 +18,6 @@ public class MenuItemDaoCollectionImplTest {
 		for(MenuItem value:menuItemList) {
 			System.out.println(value);
 		}
-		System.out.println();
-		System.out.println();
 	}
 	public static void testGetMenuItemListCustomer() {
 		MenuItemDao menuItemDao = new MenuItemDaoCollectionImpl();
